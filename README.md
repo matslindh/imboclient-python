@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/andreasrs/ImboclientPython.png?branch=master)](https://travis-ci.org/andreasrs/ImboclientPython)
+[![Build Status](https://travis-ci.org/imbo/imboclient-python.svg?branch=master)](https://travis-ci.org/imbo/imboclient-python)
 
 Python client for Imbo
 ======================
