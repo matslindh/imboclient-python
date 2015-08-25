@@ -4,15 +4,14 @@ Python client for Imbo
 ======================
 
 A client for Imbo written in Python for 2.7.x
-Python 3.4 compatible client is provided in separate branch.
-
+Please use the master branch if you are one of the cool kids on 3.x.
 
 Installation
 ============
 
 Install it directly from Github:
 
-    pip install git+git://github.com/andreasrs/ImboclientPython.git
+    pip install git+git://github.com/imbo/imboclient-python.git@python2
 
 Only Python 2.7 is tested/verified at the moment on this branch, virtualenv is recommended.
 
@@ -22,7 +21,7 @@ Package will be deployed to pip repositories shortly, after a few planned backwa
 Usage
 =====
 
-For a quick overview of the current functionality refer to the integration tests that perform simple operations with the client (self._client) [here](https://github.com/andreasrs/ImboclientPython/blob/master/imboclient/test/integration/test_client.py)
+For a quick overview of the current functionality refer to the integration tests that perform simple operations with the client (self._client) [here](https://github.com/imbo/imboclient-python/blob/python2/imboclient/test/integration/test_client.py)
 
 The basic operations work at the moment, but the return-values from various functions are a bit incosistent and will be fixed in the near future.
 
@@ -32,8 +31,8 @@ Develop/Contribute to Python client for Imbo
 
 Get the code and install dependencies:
 
-    git clone git@github.com:andreasrs/ImboclientPython.git
-    cd ImboclientPython && make install
+    git clone git@github.com:imbo/imboclient-python.git
+    cd imboclient-python && git checkout python2 && make install
 
 Run the unit testsuite:
 
