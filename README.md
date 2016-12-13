@@ -51,4 +51,5 @@ Copyright (c) 2013, Andreas Søvik <arsovik@gmail.com>
 Licensed under the MIT License
 
 
+
 Contributions are very welcome, but please make sure your pull requests have test coverage.
