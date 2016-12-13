@@ -7,8 +7,6 @@ before_install:
   - sudo apt-get update -qq
   - sudo apt-get install -qq php5.6 php5.6-cli php5.6-xml php5.6-curl php5.6-memcached php5.6-imagick php5.6-dev php-pear php php5.6-mongodb php5.6-mongo
   - sudo update-alternatives --set php /usr/bin/php5.6
-  - yes '' | sudo pecl install mongo
-  - echo "extension=mongo.so" | sudo tee /etc/php5/cli/php.ini
   - php -v
   - curl https://getcomposer.org/installer | php
   - chmod +x composer.phar
